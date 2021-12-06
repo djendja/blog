@@ -1,0 +1,118 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80%;
+    border: 20px solid #fff;
+    font-family: 'Amatic SC', cursive;
+    padding: 50px;
+    margin: 80px auto;
+    max-width: 700px;
+}
+
+.nav {
+    background-color: rgb(179, 216, 190);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* margin-left: -490px; */
+    left: 0;    
+}
+    
+
+.nav__logo img{
+    width: 60px;  
+}
+
+.blog-page {
+    margin-bottom: 20px;
+}
+
+.blog-page__homepage {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.blog-page__homepage a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.blog-page__homepage a:hover {
+    color: rgb(12, 75, 15);
+    transition: all ease 0.3s;
+}
+
+.blog-page__date {
+    color: #fff;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+
+.blog-page p {
+    border-left: 5px solid #d7dab5;
+    padding-left: 5px;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.blog-page ul{
+    color: #fff;
+    line-height: 2rem;
+}
+
+.blog-page h1{
+color:#fff;
+font-size: 2.0rem;
+}
+
+.blog-page__bn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-page__back {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-page__back a {
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.blog-page__back a:hover {
+    color: rgb(12, 75, 15);
+    transition: all ease 0.3s;
+}
+
+
+.blog-page__next {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-page__next a {
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    font-size: 1.3rem;
+}
+
+.blog-page__next a:hover {
+    color: rgb(12, 75, 15);
+    transition: all ease 0.3s;
+}
